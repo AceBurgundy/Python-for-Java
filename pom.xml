@@ -41,13 +41,4 @@
         </dependency>
     </dependencies>
     <name>Python</name>
-    <settings>
-      <servers>
-        <server>
-          <id>github</id>
-          <username>AceBurgundy</username>
-          <password>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</password>
-        </server>
-      </servers>
-    </settings>
 </project>
