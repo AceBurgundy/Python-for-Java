@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="PythonListTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="PythonListTest" time="0.013" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.2+7-44"/>
@@ -46,7 +46,7 @@
     <property name="java.class.path" value="C:\Program Files\NetBeans-17\netbeans\java\maven\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans-17\netbeans\java\maven-nblib\netbeans-eventspy.jar deploy -e"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans-17\netbeans\java\maven-nblib\netbeans-eventspy.jar clean install"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,18 +62,18 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="PythonListTest" name="PythonListTest.testSet" time="0.002"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testSet" time="0.006"/>
   <testcase classname="PythonListTest" name="PythonListTest.testListFactoryMethod" time="0"/>
-  <testcase classname="PythonListTest" name="PythonListTest.testAppend" time="0"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testPop" time="0.002"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testRemove" time="0.001"/>
   <testcase classname="PythonListTest" name="PythonListTest.testReverse" time="0"/>
-  <testcase classname="PythonListTest" name="PythonListTest.testInsert" time="0"/>
-  <testcase classname="PythonListTest" name="PythonListTest.testRemove" time="0"/>
-  <testcase classname="PythonListTest" name="PythonListTest.testToString" time="0"/>
-  <testcase classname="PythonListTest" name="PythonListTest.testCount" time="0"/>
-  <testcase classname="PythonListTest" name="PythonListTest.testClear" time="0"/>
-  <testcase classname="PythonListTest" name="PythonListTest.testPopAtIndex" time="0"/>
-  <testcase classname="PythonListTest" name="PythonListTest.testCopy" time="0"/>
-  <testcase classname="PythonListTest" name="PythonListTest.testPop" time="0"/>
-  <testcase classname="PythonListTest" name="PythonListTest.testExtend" time="0"/>
   <testcase classname="PythonListTest" name="PythonListTest.testSort" time="0"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testPopAtIndex" time="0"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testClear" time="0.001"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testCopy" time="0"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testAppend" time="0.001"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testToString" time="0.001"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testCount" time="0"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testExtend" time="0.001"/>
+  <testcase classname="PythonListTest" name="PythonListTest.testInsert" time="0"/>
 </testsuite>
