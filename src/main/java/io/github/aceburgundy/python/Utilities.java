@@ -2,17 +2,26 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package io.github.aceburgundy.pythonutilities;
-
+package io.github.aceburgundy.python;
 import java.util.*;
 
 /**
  * A utility class that provides Python-like functionality for Java programs.
  */
-public class PythonUtilities {
+public class Utilities {
 
     private static final ArrayList<Object> list = new ArrayList<>();
     private static final Scanner scanner = new Scanner(System.in);
+
+    /**
+     * Reads a line of input from the standard input and returns it as a String.
+     *
+     * allows the method to be called without any arguments
+     * @return calls the input method with an empty string as the argument
+     */
+    public static String input() {
+        return input("");
+    }
 
     /**
      * Reads a line of input from the standard input and returns it as a String.
@@ -37,36 +46,6 @@ public class PythonUtilities {
      */
     public static void print(Object obj) {
         System.out.println(obj);
-    }
-
-    /**
-     * Appends an item to the internal list.
-     *
-     * @param item the item to be appended
-     */
-    public static void append(Object item) {
-        list.add(item);
-    }
-
-    /**
-     * Removes and returns the last element from the iterable.
-     *
-     * @param iterable the iterable from which the last element is removed
-     * @param <T>      the type of elements in the iterable
-     * @return the last element from the iterable
-     * @throws IndexOutOfBoundsException if the iterable is empty
-     */
-    public static <T> T pop(Iterable<? extends T> iterable) {
-        Iterator<? extends T> iterator = iterable.iterator();
-        if (!iterator.hasNext()) {
-            throw new IndexOutOfBoundsException("Iterable is empty.");
-        }
-        T lastItem = null;
-        while (iterator.hasNext()) {
-            lastItem = iterator.next();
-        }
-        iterator.remove();
-        return lastItem;
     }
 
     /**
@@ -119,4 +98,5 @@ public class PythonUtilities {
             return iterable.toString();
         }
     }
+   
 }
