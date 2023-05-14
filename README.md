@@ -134,22 +134,23 @@ Here's an example of how to use the `Utilities` class:
 ## Usage
 
 ```java
-import io.github.aceburgundy.python.Utilities;
+import static io.github.aceburgundy.python.PythonList.*; //important
+import static io.github.aceburgundy.python.Utilities.*;
 
 // Creating a PythonList
 PythonList list = new PythonList();
 list.append(1);
 list.append(2);
 list.append(3);
-System.out.println(list.toString());  // [1, 2, 3]
+print(list)  // [1, 2, 3]
 
 // Modifying the list
 list.pop();
-System.out.println(list.toString());  // [1, 2]
+print(list)  // [1, 2]
 
 // Using Utilities
-String input = Utilities.input("Enter your name: ");
-Utilities.print("Hello, " + input);
+String input = input("Enter your name: ");
+print("Hello, " + input);
 ```
 
 ## API
