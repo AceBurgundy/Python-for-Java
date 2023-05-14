@@ -1,6 +1,6 @@
 # Python for Java
 
-This is a Java class that represents a Python-style list.
+This is a Java package that allows you to use Python like methods and functions inside Java.
 
 ## Installation
 
