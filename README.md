@@ -26,6 +26,13 @@ dependencies {
 }
 ```
 
+# Imports
+
+Append the keyword "static" after "import" and use '*' at the end so you would be able to utilize all available methods and functions of the class.
+```
+import static io.github.aceburgundy.python.Utilities.*;
+```
+
 # PythonList Class
 
 ## Usage
@@ -33,7 +40,7 @@ dependencies {
 Here's an example of how to use the `PythonList` class:
 
 ```
-import static io.github.aceburgundy.python.PythonList.*; //important
+import static io.github.aceburgundy.python.PythonList.*;
 import static io.github.aceburgundy.python.Utilities.*;
 
 public class Main {
