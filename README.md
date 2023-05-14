@@ -33,15 +33,16 @@ dependencies {
 Here's an example of how to use the `PythonList` class:
 
 ```
-import io.github.aceburgundy.python.PythonList;
+import static io.github.aceburgundy.python.PythonList.*; //important
+import static io.github.aceburgundy.python.Utilities.*;
 
 public class Main {
     public static void main(String[] args) {
-        PythonList list = new PythonList();
+        PythonList list = list(1, "hello", 1.32);
         list.append("apple");
         list.append("banana");
         list.append("cherry");
-        System.out.println(list);  // Output: [apple, banana, cherry]
+        print(list);  // Output: [apple, banana, cherry]
     }
 }
 ```
