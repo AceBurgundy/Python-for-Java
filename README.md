@@ -42,7 +42,7 @@ public class Main {
         list.append("apple");
         list.append("banana");
         list.append("cherry");
-        print(list);  // Output: [apple, banana, cherry]
+        print(list);  // Output: [1, "hello", 1.32, "apple", "banana", "cherry"]
     }
 }
 ```
