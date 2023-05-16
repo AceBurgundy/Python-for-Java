@@ -193,7 +193,7 @@ License
 
 ## Contact
 
-For any questions or inquiries, please contact Samadriansabalo@gmail.com.
+For any questions or inquiries, please contact Samadriansabalo99@gmail.com.
 
 ## Portfolio
 https://aceburgundy.github.io
